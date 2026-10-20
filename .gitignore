@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+.venv-build/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local test data and quarantine
+SafeDuplicateTest/
+DuplicateQuarantine/
+RestoreQuarantine/
